@@ -14,7 +14,6 @@ class CardSwipper extends StatelessWidget {
           .infinity, //esto hace que la tarjeta ocupe todo el ancho posible
       height: size.height *
           0.5, //asi obtengo un alto de la mitad de la pantalla del dispositivo que sea
-      color: Colors.blueGrey,
       child: Swiper(
         itemCount: 10,
         layout: SwiperLayout.STACK,
