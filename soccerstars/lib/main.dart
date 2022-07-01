@@ -14,6 +14,9 @@ class MyApp extends StatelessWidget {
         'home': (_) => HomeScreen(),
         'details': (_) => DetailsScreen(),
       },
+      theme: ThemeData.light().copyWith(
+          //al poner el copywith, puedo añadir al tema light las preferencias que yo quiera
+          appBarTheme: AppBarTheme(color: Colors.green)),
     );
   }
 }
